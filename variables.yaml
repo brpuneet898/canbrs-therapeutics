@@ -1,0 +1,67 @@
+ID:
+  type: identifier
+  description: Unique identifier for each patient
+
+age:
+  type: continuous
+  description: Age of the patient at the time of diagnosis (in years)
+
+year_of_diagnosis:
+  type: continuous
+  description: Year in which the diagnosis was made
+
+race:
+  type: categorical
+  description: Encoded race category (e.g., w1)
+
+marital_status:
+  type: categorical
+  description: Encoded marital status (e.g., m1, w5, s3)
+
+primary_site:
+  type: categorical
+  description: Encoded primary site of cancer (e.g., 501, 508)
+
+regional_nodes_positive:
+  type: continuous
+  description: Number of regional lymph nodes that tested positive
+
+regional_nodes_examined:
+  type: continuous
+  description: Number of regional lymph nodes examined
+
+site_bone:
+  type: categorical
+  description: Presence of bone metastasis (Yes/No/Unknown)
+
+site_brain:
+  type: categorical
+  description: Presence of brain metastasis (Yes/No/Unknown)
+
+site_liver:
+  type: categorical
+  description: Presence of liver metastasis (Yes/No/Unknown)
+
+site_lung:
+  type: categorical
+  description: Presence of lung metastasis (Yes/No/Unknown)
+
+subtype:
+  type: categorical
+  description: Encoded cancer subtype (e.g., 1, 3, 4)
+
+er_status:
+  type: categorical
+  description: Estrogen receptor status (Positive/Negative)
+
+pr_status:
+  type: categorical
+  description: Progesterone receptor status (Positive/Negative)
+
+her2_status:
+  type: categorical
+  description: HER2 receptor status (Positive/Negative)
+
+Outcome:
+  type: categorical
+  description: Clinical outcome of the patient (e.g., Dead)
