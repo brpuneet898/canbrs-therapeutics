@@ -7,3 +7,5 @@ seaborn
 imbalanced-learn
 shap
 statsmodels
+pyarrow
+fastparquet
